@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAMIREZ PAREDES ANIA ITZEL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Festival 2026</div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#artistas">Artistas</a></li>
+                <li><a href="#entradas">Entradas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Festival de Verano 2026</h1>
+            <p>El evento musical más esperado del año</p>
+            <button class="cta-button">Comprar Entradas</button>
+        </section>
+
+        <section id="artistas">
+            <h2>Artistas Destacados</h2>
+            <div class="artistas-grid">
+                <div class="artista-card">
+                    <img src="img/rihana.jpeg" alt="Artista 1">
+                    <h3>Rihana</h3>
+                    <p>Pop/R&B/Dancehall/Reggae/hip-hop</p>
+                    <p>Cantante de Barbados reconocida mundialmente por canciones como Diamonds, Umbrella y We Found Love.</p>
+                </div>
+                <div class="artista-card">
+                    <img src="img/freya.jpeg" alt="Artista 2">
+                    <h3>Freya Skye</h3>
+                    <p>Pop/Pop juvenil/Dance-pop</p>
+                    <p>Cantante y actriz británica que ha ganado popularidad por su música y sus presentaciones juveniles.</p>
+                </div>
+                <div class="artista-card">
+                    <img src="img/humbe.jpeg" alt="Artista 3">
+                    <h3>Humbe</h3>
+                    <p>Pop alternativo/R&B/Inde pop/Pop latino</p>
+                    <p>Cantante y compositor mexicano conocido por canciones como Fantasmas, Amor de cine y Te lo prometo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="entradas">
+            <h2>Boletos de los artistas</h2>
+            <div class="entradas-grid">
+                <div class="entrada-card">
+                    <h3>Cocnierto-Rihanna</h3>
+                    <p class="precio">$1,250</p>
+                    <ul>
+                        <li>Acceso a zona VIp</li>
+                        <li>Fotografia con decoracion especial</li>
+                        <li>Articulo de coleccion del tour</li>
+                    </ul>
+                    <button>Comprar</button>
+                </div>
+                <div class="entrada-card destacada">
+                    <h3>Cocnierto-Freya-Skye</h3>
+                    <p class="precio">$3,500</p>
+                    <ul>
+                        <li>Acceso anticipado al recinto</li>
+                        <li>Prueba de sonido exclusiva con Freya</li>
+                        <li>Poster autografeado</li>
+                    </ul>
+                    <button>Comprar</button>
+                </div>
+                <div class="entrada-card">
+                    <h3>Cocnierto-Humbe</h3>
+                    <p class="precio">$6,800</p>
+                    <ul>
+                        <li>Acceso al balcon VIP</li>
+                        <li>Foto conmemorativa autografeada</li>
+                        <li>Conocer al cantante</li>
+                    </ul>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="footer-content">
+            <form action="https://formspree.io/f/xeaernlj" method="POST">
+                <input type="hidden" name="apiKey" value="sf_0734af3c13cfdb1e4699f327">
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>ramirezparedesania@gmail.com</p>
+                <p>+52 244 137 9630</p>
+            </div>
+            <div class="contact-content">
+            <form>
+                <p>Formulario de contacto</p>
+                <input type="nombre" placeholder="Nombre:" name="nombre" required>
+                <input type="email" placeholder="Escribe tu correo" name="email" required>
+                <input type="mensaje" placeholder="Mensaje:" name="mensaje" required>
+                <input type="submit" class="btn-3" value="Enviar">
+
+            </form>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <div class="conts">
+                        <p>Rihana</p>
+                    <a href="https://www.instagram.com/badgalriri/" class="footer__icons" target="_blank"><img src="./img/instagram.svg" class="footer__img"></a>
+                    <a href="https://www.facebook.com/rihanna" class="footer__icons" target="_blank"><img src="./img/facebook.svg" class="footer__img"></a>
+                    </div>
+                    <div class="conts">
+                        <p>Freya Skye</p>
+                    <a href="https://www.instagram.com/freyaskye/" class="footer__icons" target="_blank"><img src="./img/instagram.svg" class="footer__img"></a>
+                    <a href="https://www.facebook.com/people/Freya-Skye/61558163245905" class="footer__icons" target="_blank"><img src="./img/facebook.svg" class="footer__img"></a>
+                    </div>
+                    <div class="conts">
+                        <p>Humbe</p>
+                    <a href="https://www.instagram.com/humbe" class="footer__icons" target="_blank"><img src="./img/instagram.svg" class="footer__img"></a>
+                    <a href="https://www.youtube.com/@Humbe" class="footer__icons" target="_blank"><img src="./img/youtube.svg" class="footer__img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Festival de Verano. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
